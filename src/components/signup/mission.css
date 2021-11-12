@@ -1,0 +1,30 @@
+
+
+.half-content-custom{
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 6px;
+}
+
+
+@media (max-width:411px){
+    .half-content-custom{
+        width: 100%;
+        margin-right: 100% !important;
+    }
+    .head{
+        font-size: 2rem !important;
+    }
+}
+
+
+@media (max-width:880px){
+    .half-content-custom{
+        width:130% !important;
+        margin-left: -50% !important;
+    }
+    .img{
+        display: none !important;
+    }
+}
